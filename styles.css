@@ -85,6 +85,15 @@ p,
   border-radius: 10px;
   padding: 5px 10px;
 }
+.code-source {
+  color: #5c636a;
+  font-family: monospace;
+  font-size: 14px;
+  padding-top: 10px;
+}
+.code-source-link {
+  text-decoration: none;
+}
 #celsius-link,
 #fahrenheit-link {
   text-decoration: none;
