@@ -1,0 +1,92 @@
+body {
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  padding: 20px 0;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(231, 101, 123);
+  font-family: monospace;
+}
+
+hr {
+  margin: 5px 10px;
+  border: 1px solid #ff738a;
+}
+p {
+  color: #5c636a;
+  font-size: 20px;
+  font-family: monospace;
+}
+i {
+  font-size: 40px;
+  color: #e7657b;
+  text-align: center;
+  width: 100%;
+}
+
+h1 .fas {
+  margin-top: 10px;
+}
+
+.city {
+  color: #5c636a;
+}
+.card {
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  border-radius: 10px;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+p,
+.today {
+  text-align: center;
+  color: #5c636a;
+  font-size: 11px;
+  font-family: monospace;
+  margin: 0;
+}
+.card-text {
+  text-align: center;
+  size: 50px;
+  color: #5c636a;
+  padding-top: 0;
+  margin: 0;
+}
+
+.days {
+  color: #5c636a;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.temperature {
+  color: #5c636a;
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+}
+.circle {
+  border: 1px solid #ffafbc;
+  background: #e2eff1;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.container-forcast {
+  border: 1px solid #ffafbc;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+#celsius-link,
+#fahrenheit-link {
+  text-decoration: none;
+  color: #ffafbc;
+}
